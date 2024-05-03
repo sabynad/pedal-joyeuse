@@ -1,6 +1,6 @@
 <?php
 
-class Personnel extends Model
+class Tva extends Model
 {
     protected $bd;
 
@@ -11,7 +11,7 @@ class Personnel extends Model
 
         if(is_null(self::$instance))
         {
-            self::$instance=new Personnel();
+            self::$instance=new Tva();
         }
         return self::$instance;
     }
@@ -22,10 +22,10 @@ class Personnel extends Model
 
 
     // affichage du personnels
-    public function get_all_personnels()
+    public function get_all_tva()
     {
         try {
-            $requete = $this->bd->prepare('SELECT * FROM personnel');
+            $requete = $this->bd->prepare('SELECT * FROM tva');
             $requete->execute();
             
         } catch (PDOException $e) {

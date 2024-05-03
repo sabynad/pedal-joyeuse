@@ -19,8 +19,4 @@ class Controller_personnel extends Controller
         $this->render("all_personnels",$data);
     }
 
-
-
-
-    
 }
