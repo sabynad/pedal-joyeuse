@@ -1,1 +1,1 @@
-<h1>Bienvenue dans la librairie</h1>
+<h1>La pédale joyeuse</h1>

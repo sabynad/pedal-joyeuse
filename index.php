@@ -16,12 +16,8 @@ require_once('App/Controller.php');
 
 require('Utils/header.php');     //require charge la page required avant affichage dans cette example le header change celon la connexion ou non
 
-$controllers=['home','personnel'];
-$controllers=['home','facture'];
-$controllers=['home','client'];
-$controllers=['home','ligne_facture'];
-$controllers=['home','produits'];
-$controllers=['home','tva'];
+$controllers=['home','personnel', 'facture', 'client', 'ligne_facture', 'produits', 'tva'];
+
 $controller_default='home';
 
 if(isset($_GET['controller']) and in_array($_GET['controller'],$controllers))

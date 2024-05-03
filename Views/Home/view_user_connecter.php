@@ -6,5 +6,5 @@ $_SESSION['Statut'] = $identification[0]->Statut;
 
 ?>
 
-<script>window.location.href="?controller=home&action=home"</script>
+<script>window.location.href="?controller=home&action=user_connecter"</script>
 

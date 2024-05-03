@@ -3,15 +3,15 @@
         <legend>Connexion</legend>
 
         <label for="">Email :
-            <input type="email" name="Email">
+            <input type="nom" name="nom">
         </label>
  
         <label for="">Mot de passe :
-            <input type="Password" name="MdP">
+            <input type="Password" name="password">
         </label>
 
         <input type="submit">
     
 </form>        
 
-<h1>Connectez-vous à la librairie</h1>
+<h1>Connectez-vous à la pédale joyeuse</h1>

@@ -18,5 +18,5 @@ class Controller_personnel extends Controller
         $data=['personnels'=>$m->get_all_personnels()];
         $this->render("all_personnels",$data);
     }
-
+    
 }
